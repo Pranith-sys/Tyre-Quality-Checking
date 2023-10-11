@@ -6,7 +6,7 @@ import pandas as pd
 
 
 # Load the dumped model
-loaded_model = pickle.load(open(r'D:\python\AI\computer vision\image binary classification for tyre\classifier model\classifier_ml_model.sav', 'rb'))
+loaded_model = pickle.load(open('classifier_ml_model.sav', 'rb'))
 
 # Create a function for image classification
 def image_classification(image_array):
